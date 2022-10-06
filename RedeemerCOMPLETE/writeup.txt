@@ -1,0 +1,84 @@
+This box is also something I have little knowledge of. Hopefully I get a better understanding of it now.
+
+Question 1:
+
+*****Which TCP port is open on the machine?*****
+
+- had to use --min-rate 5000 to get this scan to run quicker, also had to use -p- to get all ports and not a limited number of them
+
+---6379
+
+Question 2:
+
+*****Which service is running on the port that is open on the machine?*****
+
+---Redis
+
+Question 3:
+
+*****What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database*****
+
+---in-memory database
+
+ ^Note: in memory databases use memory for data storage, traditional databases use hard drives/ssd's. They are faster because they don't have as many CPU instructions^
+
+Question 4:
+
+*****Which command-line utility is used to interact with the Redis server? Enter the program name you would enter into the terminal without any arguments.*****
+
+---redis-cli
+
+^Note: install tools using sudo apt install redis-tools^
+
+Question 5:
+
+*****Which flag is used with the Redis command-line utility to specify the hostname?*****
+
+--- -h
+
+Question 6:
+
+*****Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?*****
+
+
+---info
+
+Question 7:
+
+*****What is the version of the Redis server being used on the target machine?*****
+
+---5.0.7
+
+Question 8:
+
+*****Which command is used to select the desired database in Redis?*****
+
+---select
+
+Question 9:
+
+*****How may keys are present inside the database with index 0?*****
+
+---4
+
+^Note: Keyspace under info command shows the databases, select one and use keys * on it to get all keys^
+
+Question 10:
+
+*****Which command is used to obtain all the keys in a database?*****
+
+---keys *
+
+Question 11:
+
+*****Submit root flag*****
+
+---03e1d2b376c37ab3f5319922053953eb
+
+^Note: use "get [keyName]" to get a key's value. In this case, use "get flag" to get the flag^
+
+
+
+
+
+Finished.

@@ -1,0 +1,56 @@
+This should be an interesting box. I have little experience with SMB so hopefully this should give me a high level overview of the service (or at least lead me to one).
+
+Question 1: 
+
+*****What does the 3-letter acronym SMB stand for?*****
+
+---Server Message Block
+
+Question 2:
+
+*****What port does SMB use to operate at?*****
+
+---445
+
+^Note: 139 is used when running a SMB dialect that communicates over netBIOS^
+
+Question 3:
+
+*****What is the service name for port 445 that came up in our Nmap scan?*****
+
+---microsoft-ds
+
+Question 4:
+
+*****What is the 'flag' or 'switch we can use with the SMB tool to 'list' the contents of the share?*****
+
+--- -L (make sure it isn't lowercase when using it)
+
+Question 5:
+
+*****How may shares are there on Dancing?*****
+
+---4
+
+Question 6:
+
+*****What is the name of the share we are able to access in the end with a blank password?*****
+
+---Workshares
+
+Question 7:
+
+*****What is the command we can use within the SMB shell to download the files we find?*****
+
+---get
+
+Question 8:
+
+*****Submit root flag*****
+
+---5f61c10dffbc77a704d76016a22f1664
+
+
+
+
+Finished

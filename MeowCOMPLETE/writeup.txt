@@ -1,0 +1,54 @@
+First machine in a long time and my first time using the regular HTB academy besides following a writeup a long time ago. Starting off with the starting point module as a refresher of what I have done a while ago.
+
+Question 1:
+*****What does the acronym VM stand for?*****
+---Virtual Machine
+
+Question 2:
+*****What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.*****
+
+---Terminal
+
+Question 3:
+*****What service do we use to form our VPN connection into HTB labs?*****
+
+---OpenVPN
+
+Question 4:
+*****What is the abbreviated name for 'tunnel interface' in the output of your VPN boot-up sequence output?*****
+
+---tun
+
+Question 5:
+*****What tool do we use to test our connection to the target with an ICMP echo request?*****
+
+---Ping
+
+Question 6:
+*****What is the name of the most common tool for finding open ports on a target?*****
+
+---Nmap
+
+Question 7:
+*****What service doo we identify on port 23/tcp during our scans?*****
+
+---Telnet
+
+Question 8:
+*****What username is able to log into the target over telnet with a blank password?*****
+
+-Need to look at the hint for this but it is probably a default user like admin or root
+
+-Hint led me to root
+
+---Root
+
+*****Submit root flag*****
+
+-Cat out the flag.txt
+
+---b40abdfe23665f766f9c61ecba8a4c19
+
+
+
+Finished. Easy box, easy way to get back into the basics of enumeration and security. Did not utilize the walkthrough as I have experience from TryHackMe and other CTF sites. 
